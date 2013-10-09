@@ -22,9 +22,9 @@ Unity Editor の Preferences から、外部エディタを
 "Program Files/Unity Tools/UnityScriptEditorRedirector/monodevelop.exe" に
 設定してください。
 
-Unity からエディタを立ち上げるとき、UnityScriptEditorRedirector が起動して、
+Unity からスクリプトエディタを立ち上げるとき、UnityScriptEditorRedirector が起動して、
 外部エディタにリダイレクトされます。
 
-設定変更する場合は、デスクトップのショートカット、またはスタートメニューから
+リダイレクト設定を変更する場合は、デスクトップのショートカット、またはスタートメニューから
 UnityScriptEditorRedirector を実行して下さい。
 
