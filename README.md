@@ -23,7 +23,7 @@ Unity Editor の Preferences から、外部エディタを
 設定してください。
 
 Unity からスクリプトエディタを立ち上げるとき、UnityScriptEditorRedirector が起動して、
-自動的に外部エディタにリダイレクトします。
+自動的に外部エディタにリダイレクトするようになります。
 
 リダイレクト設定を変更する場合は、デスクトップのショートカット、またはスタートメニューから
 UnityScriptEditorRedirector を実行して下さい。
