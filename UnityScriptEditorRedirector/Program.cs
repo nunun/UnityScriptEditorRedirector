@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.Threading;
+using System.Globalization;
 using Microsoft.Win32;
 
 namespace UnityScriptEditorRedirector
@@ -18,21 +20,28 @@ namespace UnityScriptEditorRedirector
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            // ■ 注意
+            // 言語設定
+            CultureInfo ci = CultureInfo.CurrentCulture;
+            //CultureInfo ci = new CultureInfo(""); // "" or "ja-JP" ...
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
+
             if (args.Length == 0)
             {
                 Application.Run(new Form1());
                 return;
             }
 
+            //string message = string.Join(", ", args);
+            //MessageBox.Show(message, "Debug", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             string solution = args[1];
             string filepath = args[2];
-#if false
-            string message = string.Join(", ", args);
-            MessageBox.Show(message, "Debug", MessageBoxButtons.OK, MessageBoxIcon.Information);
-#endif
             int index = filepath.LastIndexOf(';');
             string filename, line;
-            if (index >= 0) {
+            if (index >= 0)
+            {
                 filename = filepath.Substring(0, index);
                 line = filepath.Substring(index + 1);
             } else {

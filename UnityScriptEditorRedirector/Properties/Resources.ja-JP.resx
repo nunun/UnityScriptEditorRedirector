@@ -118,45 +118,45 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DeleteConfirm_Caption" xml:space="preserve">
-    <value>Delete Redirector Config</value>
+    <value>設定の削除</value>
   </data>
   <data name="DeleteConfirm_Message" xml:space="preserve">
-    <value>Delete Redirector Config from Windows Registry! Are you sure?</value>
+    <value>レジストリから設定を削除します。 よろしいですか？</value>
   </data>
   <data name="Deleted_Caption" xml:space="preserve">
-    <value>Redirector Config Deleted</value>
+    <value>設定の削除</value>
   </data>
   <data name="Deleted_Message" xml:space="preserve">
-    <value>Complete to delete Redirector Config on your computer.</value>
+    <value>設定を削除しました。</value>
   </data>
   <data name="ExecuteMySelf_Caption" xml:space="preserve">
-    <value>Error!</value>
+    <value>エラー</value>
   </data>
   <data name="ExecuteMySelf_Message" xml:space="preserve">
-    <value>Cannot execute myself!</value>
+    <value>自分自身を実行できません!</value>
   </data>
   <data name="SaveConfirm_Caption" xml:space="preserve">
-    <value>Save Redirector Config</value>
+    <value>設定の保存</value>
   </data>
   <data name="SaveConfirm_Message" xml:space="preserve">
-    <value>Redirector Config is changed. Press [Yes] to save.</value>
+    <value>設定が変更されています。保存しますか？</value>
   </data>
   <data name="SelectEditor_Filter" xml:space="preserve">
-    <value>Executable File (*.exe)|*.exe|All Files (*.*)|*.*</value>
+    <value>実行可能ファイル (*.exe)|*.exe|全てのファイル (*.*)|*.*</value>
   </data>
   <data name="SelectEditor_Title" xml:space="preserve">
-    <value>Select Script Editor</value>
+    <value>エディタの選択</value>
   </data>
   <data name="SelectTestFilename_Filter" xml:space="preserve">
-    <value>All Files (*.*)|*.*</value>
+    <value>全てのファイル (*.*)|*.*</value>
   </data>
   <data name="SelectTestFilename_Title" xml:space="preserve">
-    <value>Select File To Open</value>
+    <value>開くファイルの選択</value>
   </data>
   <data name="SelectTestSolution_Filter" xml:space="preserve">
-    <value>Solution File (*.sln)|*.sln|All Files (*.*)|*.*</value>
+    <value>ソリューションファイル (*.sln)|*.sln|全てのファイル (*.*)|*.*</value>
   </data>
   <data name="SelectTestSolution_Title" xml:space="preserve">
-    <value>Select Solution File</value>
+    <value>ソリューションファイルの選択</value>
   </data>
 </root>

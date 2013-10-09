@@ -97,7 +97,7 @@ namespace UnityScriptEditorRedirector.Properties {
         }
         
         /// <summary>
-        ///   Cannot execute myself! に類似しているローカライズされた文字列を検索します。
+        ///   Error! に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ExecuteMySelf_Caption {
             get {
@@ -106,7 +106,7 @@ namespace UnityScriptEditorRedirector.Properties {
         }
         
         /// <summary>
-        ///   Error! に類似しているローカライズされた文字列を検索します。
+        ///   Cannot execute myself! に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ExecuteMySelf_Message {
             get {
@@ -115,7 +115,7 @@ namespace UnityScriptEditorRedirector.Properties {
         }
         
         /// <summary>
-        ///   Delete Redirector Configration に類似しているローカライズされた文字列を検索します。
+        ///   Save Redirector Config に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SaveConfirm_Caption {
             get {
@@ -124,7 +124,7 @@ namespace UnityScriptEditorRedirector.Properties {
         }
         
         /// <summary>
-        ///   Delete Redirector Configration from Windows Registry! Are you sure? に類似しているローカライズされた文字列を検索します。
+        ///   Redirector Config is changed. Press [Yes] to save. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SaveConfirm_Message {
             get {
