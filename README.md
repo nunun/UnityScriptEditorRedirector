@@ -12,8 +12,8 @@ Unity Editor for Windows では、[Edit] -> [Preferences] から
 Install
 =======
 
-Unity Editor から、外部エディタをこのパッケージに含まれる
-"monodevelop.exe" に設定してください。
+Unity Editor の Preferences から、外部エディタをこのパッケージに
+含まれる "monodevelop.exe" に設定してください。
 
 Unity からエディタを立ち上げるとき、UnityScriptEditorRedirector が
 起動して、外部エディタへのリダイレクト設定画面が表示されます。
