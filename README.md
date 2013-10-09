@@ -11,10 +11,9 @@ Unity Editor for Windows では、[Edit] -> [Preferences] から
 Install
 =======
 
-下記のページからインストーラ (msi ファイルか setup.exe) をダウンロードして、
-実行してください。
+下記リンクからインストーラ (.msi) をダウンロードして実行してください。
 
-https://github.com/nunun/UnityScriptEditorRedirector/tree/master/UnityScriptEditorRedirectorSetup/Release
+https://github.com/nunun/UnityScriptEditorRedirector/blob/master/UnityScriptEditorRedirectorSetup/Release/UnityScriptEditorRedirectorSetup.msi?raw=true
 
 Configuration
 =============
