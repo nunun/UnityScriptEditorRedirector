@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FB20FC5BA2574DEAA113991B0737B085"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1675141C5396445FACA78788D14274A9"
         "MsmSig" = "8:_UNDEFINED"
@@ -43,6 +49,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,6 +86,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    {
+                    "Name" = "8:.NET Framework 3.5"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -88,6 +136,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB20FC5BA2574DEAA113991B0737B085"
+            {
+            "SourcePath" = "8:..\\UnityScriptEditorRedirector\\icon96.ico"
+            "TargetName" = "8:icon96.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_6F2C8589853B4D9EB362D061EE05D9E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -156,7 +224,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:UnityScriptEditorRedirector"
         "ProductCode" = "8:{99FCB862-73F1-40EA-9064-6C69C197F679}"
-        "PackageCode" = "8:{95C8F4A9-7F9A-4D10-A0EE-1C28DB6C4C8A}"
+        "PackageCode" = "8:{C7F10420-A63E-4795-B259-BD9084182069}"
         "UpgradeCode" = "8:{E1DF57A7-C6EC-4496-97D0-2C9430F5AD61}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
@@ -275,21 +343,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_26BADA4F7A6C4A4D831A15FB2A7666EF"
-            {
-            "Name" = "8:UnityScriptEditorRedirector"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_1675141C5396445FACA78788D14274A9"
-            "Folder" = "8:_D2F4E40DA6C04E79A200C5EBA5EF8B01"
-            "WorkingFolder" = "8:_6F2C8589853B4D9EB362D061EE05D9E9"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9E34AB2587A74B299B27D511BED67BBE"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_954CE685F41947FA9451758F2C8981AC"
             {
             "Name" = "8:UnityScriptEditorRedirector"
             "Arguments" = "8:"
@@ -300,7 +354,21 @@
             "Target" = "8:_1675141C5396445FACA78788D14274A9"
             "Folder" = "8:_5435F1A65B73469FA066B95950621B96"
             "WorkingFolder" = "8:_6F2C8589853B4D9EB362D061EE05D9E9"
-            "Icon" = "8:"
+            "Icon" = "8:_FB20FC5BA2574DEAA113991B0737B085"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E6F22E001B244F6B9F2B3486EF488F99"
+            {
+            "Name" = "8:UnityScriptEditorRedirector"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_1675141C5396445FACA78788D14274A9"
+            "Folder" = "8:_D2F4E40DA6C04E79A200C5EBA5EF8B01"
+            "WorkingFolder" = "8:_6F2C8589853B4D9EB362D061EE05D9E9"
+            "Icon" = "8:_FB20FC5BA2574DEAA113991B0737B085"
             "Feature" = "8:"
             }
         }
@@ -730,7 +798,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4F5A0C74A1924212BACBDC2C079716FA"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A5DCF057714B410584B255A9D291BCA1"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
