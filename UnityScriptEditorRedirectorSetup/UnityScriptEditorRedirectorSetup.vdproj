@@ -156,7 +156,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:UnityScriptEditorRedirector"
         "ProductCode" = "8:{99FCB862-73F1-40EA-9064-6C69C197F679}"
-        "PackageCode" = "8:{39DA8BCB-2304-44F0-A97F-285438D034CC}"
+        "PackageCode" = "8:{95C8F4A9-7F9A-4D10-A0EE-1C28DB6C4C8A}"
         "UpgradeCode" = "8:{E1DF57A7-C6EC-4496-97D0-2C9430F5AD61}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"

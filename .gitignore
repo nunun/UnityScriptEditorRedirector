@@ -149,3 +149,12 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+
+# =========================
+# Project Dependents
+# =========================
+
+# Enable Release Setup Files For Download
+!UnityScriptEditorRedirectorSetup/Release/
+
