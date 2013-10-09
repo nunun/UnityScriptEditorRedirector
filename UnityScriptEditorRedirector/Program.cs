@@ -22,7 +22,7 @@ namespace UnityScriptEditorRedirector
 
             // ■ 注意
             // 言語設定
-            CultureInfo ci = CultureInfo.CurrentCulture;
+            CultureInfo ci = CultureInfo.InstalledUICulture;
             //CultureInfo ci = new CultureInfo(""); // "" or "ja-JP" ...
             Thread.CurrentThread.CurrentCulture = ci;
             Thread.CurrentThread.CurrentUICulture = ci;
