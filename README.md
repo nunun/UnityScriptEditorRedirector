@@ -28,12 +28,3 @@ Unity からスクリプトエディタを立ち上げるとき、UnityScriptEdi
 リダイレクト設定を変更する場合は、デスクトップのショートカット、またはスタートメニューから
 UnityScriptEditorRedirector を実行して下さい。
 
-Licenses
-========
-
-http://icons8.com
-アプリアイコン作者様
-
-http://www.easyicon.net/language.ja/1101140-3d_printer_icon.html
-アプリアイコンダウンロード元
-
