@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityScriptEditorRedirector", "UnityScriptEditorRedirector\UnityScriptEditorRedirector.csproj", "{70183A5C-7F33-4964-A03E-EB6DD494632A}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UnityScriptEditorRedirectorSetup", "UnityScriptEditorRedirectorSetup\UnityScriptEditorRedirectorSetup.vdproj", "{25F28644-F3E3-46E2-B73D-5DD903E4D554}"
